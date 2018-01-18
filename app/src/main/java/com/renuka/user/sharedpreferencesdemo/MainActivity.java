@@ -56,12 +56,12 @@ EditText text1,text2;
 
                     prefValue = mypref.getString(key,"Data");
 
-//                    if (prefObj instanceof String) prefValue = mypref.getString(key, "STRING_ERROR");
-//                    if (prefObj instanceof Integer) prefValue = mypref.getInt(key, "INT_ERROR");
-//                    // ...
-//                    if (prefObj instanceof Set) prefValue = mypref.getStringSet(key, "SET_ERROR");
+                  //  if (prefObj instanceof String) prefValue = mypref.getString(key, "STRING_ERROR");
+                  //  if (prefObj instanceof Integer) prefValue = mypref.getInt(key, "INT_ERROR");
+                    // ...
+                   // if (prefObj instanceof Set) prefValue = mypref.getStringSet(key, "SET_ERROR");
 
-                    Log.i(String.format("Shared Preference : %s - %s", mypref, key),
+                    Log.i(String.format("Shared Preference value is : %s - %s", mypref, key),
                             String.valueOf(prefValue));
                 }
             }
